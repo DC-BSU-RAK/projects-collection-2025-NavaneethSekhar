@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pets">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Select your pet 🐾"
+        android:textSize="29sp" />
+
+    <ImageView
+        android:src="@drawable/dog_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/selectDogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Dog"
+        android:textColorLink="#3F1D94"
+        app:rippleColor="#9B2424" />
+
+    <ImageView
+        android:src="@drawable/cat_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/selectCatButton"
+        android:text="Cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:text="← Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
